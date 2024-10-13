@@ -1,0 +1,20 @@
+2024-10-09 14:01:23.140 +04:00 [WRN] The WebRootPath was not found: C:\Users\Omran.t\Desktop\NPCProject\Challenge\ChallengeBackEnd\wwwroot. Static files may be unavailable.
+2024-10-09 14:01:23.320 +04:00 [INF] Now listening on: https://localhost:7269
+2024-10-09 14:01:23.324 +04:00 [INF] Now listening on: http://localhost:5177
+2024-10-09 14:01:23.414 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-09 14:01:23.417 +04:00 [INF] Hosting environment: Development
+2024-10-09 14:01:23.420 +04:00 [INF] Content root path: C:\Users\Omran.t\Desktop\NPCProject\Challenge\ChallengeBackEnd
+2024-10-09 14:01:50.856 +04:00 [WRN] The WebRootPath was not found: C:\Users\Omran.t\Desktop\NPCProject\Challenge\ChallengeBackEnd\wwwroot. Static files may be unavailable.
+2024-10-09 14:01:51.058 +04:00 [INF] Now listening on: https://localhost:7269
+2024-10-09 14:01:51.061 +04:00 [INF] Now listening on: http://localhost:5177
+2024-10-09 14:01:51.104 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-09 14:01:51.107 +04:00 [INF] Hosting environment: Development
+2024-10-09 14:01:51.108 +04:00 [INF] Content root path: C:\Users\Omran.t\Desktop\NPCProject\Challenge\ChallengeBackEnd
+2024-10-09 14:04:06.139 +04:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-10-09 14:04:50.153 +04:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-10-09 14:04:59.880 +04:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-10-09 14:06:54.269 +04:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-10-09 14:07:01.628 +04:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-10-09 14:07:06.971 +04:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-10-09 14:07:12.855 +04:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-10-09 14:07:18.062 +04:00 [DBG] AuthenticationScheme: Cookies was not authenticated.

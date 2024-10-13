@@ -1,0 +1,23 @@
+2024-10-06 09:37:41.495 +04:00 [WRN] The WebRootPath was not found: C:\Users\Omran.t\Desktop\NPCProject\Challenge\ChallengeBackEnd\wwwroot. Static files may be unavailable.
+2024-10-06 09:37:41.697 +04:00 [INF] Now listening on: https://localhost:7269
+2024-10-06 09:37:41.699 +04:00 [INF] Now listening on: http://localhost:5177
+2024-10-06 09:37:41.748 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-06 09:37:41.750 +04:00 [INF] Hosting environment: Development
+2024-10-06 09:37:41.752 +04:00 [INF] Content root path: C:\Users\Omran.t\Desktop\NPCProject\Challenge\ChallengeBackEnd
+2024-10-06 09:41:39.663 +04:00 [WRN] The WebRootPath was not found: C:\Users\Omran.t\Desktop\NPCProject\Challenge\ChallengeBackEnd\wwwroot. Static files may be unavailable.
+2024-10-06 09:41:39.833 +04:00 [INF] Now listening on: https://localhost:7269
+2024-10-06 09:41:39.835 +04:00 [INF] Now listening on: http://localhost:5177
+2024-10-06 09:41:39.876 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-06 09:41:39.878 +04:00 [INF] Hosting environment: Development
+2024-10-06 09:41:39.880 +04:00 [INF] Content root path: C:\Users\Omran.t\Desktop\NPCProject\Challenge\ChallengeBackEnd
+2024-10-06 09:41:55.598 +04:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-10-06 09:41:55.606 +04:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-10-06 09:41:55.609 +04:00 [DBG] AuthenticationScheme: oidc was not authenticated.
+2024-10-06 09:41:57.730 +04:00 [DBG] HandleChallenge with Location: http://localhost:8080/realms/OmranRealm/protocol/openid-connect/auth?client_id=admin-client&redirect_uri=https%3A%2F%2Flocalhost%3A7269%2Fsignin-oidc&response_type=code&scope=openid%20profile&code_challenge=CfMaWPevEL6W6IvXlWu0CFgIXumbAqU29uDXHhTBOVs&code_challenge_method=S256&response_mode=form_post&nonce=638637901177213345.NjE3NjViYTItYjM3ZS00NzIwLWExMWEtZWZhNjk1YjI2NDllYjBlMWM2YTUtNjY3MS00ZmE5LTlhM2EtOTZiZDI0YjA2NmQ3&state=CfDJ8Ixcq4w27ehKmzo4L_miZ81ExfMTDfRVw7Ekr1CZsbPPggYy7w9CrjSxi5s2KuVvUMAPD_PC7Wk3CZBkqa8rOrpMEvyh6P_3YlaU2N-TUgXGWwe89Yxc107Y1v_0lFR7llvkRnqg2yVXCHiZwNvNEgH-28QU3VZsUrAnMG6MQtb7nheUHBQDvrAOpwWtos3p5w9YYl3RHzcirlZGe6FcA9pli3Hp8pISmj8-hWzQDEeKAZXBBhxt81U9p6bosaa-KIo4bydTu_9sJrqKCShZUdwSoaPADL3vtNIQKSQ9XAa-cTjI0vCT7lnDIgn4k225Mdt7MGgn4KCY3npM-SKbQfKJE66FRkQTooMDiMG74YLvaJq8FKleWClLq4KsaHsliw&x-client-SKU=ID_NET8_0&x-client-ver=8.1.0.0; and Set-Cookie: .AspNetCore.OpenIdConnect.Nonce.CfDJ8Ixcq4w27ehKmzo4L_miZ83n1h3pYZeDMISqdQxGmExaouTSenarRAbLwMKNnLupKuLBl15_JeGXHXACGg4ZB8M9kZRDjw1uTUbGV_Wk0XAiPWaG45oEs8TrrHPxaFrj9Jn-2cgiMEMnQ7c8a2cv_tQSvVMNeZrswY-pd5K-8cKij4dyAesl-LazdnHpne-hhL5ZGbxc76iJDvYqg5z3NAgVDXDklP1ec9zLNcXlhfvNTVQv5EyMps4z_shQw0LpA8XtIQ832FXFl-spxxmOinE=N; expires=Sun, 06 Oct 2024 05:56:57 GMT; path=/signin-oidc; secure; samesite=none; httponly,.AspNetCore.Correlation.nhbtZjzYEBlokQ2YrztSZXvdmyj-WdijhBHPJwqmWHE=N; expires=Sun, 06 Oct 2024 05:56:57 GMT; path=/signin-oidc; secure; samesite=none; httponly.
+2024-10-06 09:41:57.738 +04:00 [INF] AuthenticationScheme: oidc was challenged.
+2024-10-06 09:42:04.650 +04:00 [DBG] Updating configuration
+2024-10-06 09:42:04.659 +04:00 [DBG] Redeeming code for tokens.
+2024-10-06 09:42:04.754 +04:00 [INF] AuthenticationScheme: Cookies signed in.
+2024-10-06 09:42:04.764 +04:00 [DBG] AuthenticationScheme: Cookies was successfully authenticated.
+2024-10-06 09:42:04.768 +04:00 [DBG] AuthenticationScheme: Cookies was successfully authenticated.
+2024-10-06 09:42:04.770 +04:00 [DBG] AuthenticationScheme: oidc was successfully authenticated.

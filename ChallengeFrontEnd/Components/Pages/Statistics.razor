@@ -1,0 +1,55 @@
+﻿@page "/statistics"
+@inject Client ApiClient
+
+<h3>Class Statistics</h3>
+
+<!-- Form to input class ID -->
+<EditForm Model="classIdModel" OnValidSubmit="HandleValidSubmit" FormName="ClassIdForm">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="mb-3">
+        <label for="classId" class="form-label">Class ID</label>
+        <InputNumber id="classId" class="form-control" @bind-Value="classIdModel.ClassId" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Get Student Count</button>
+</EditForm>
+
+@if (studentCount.HasValue)
+{
+    <h4>Number of Students in Class @classIdModel.ClassId: @studentCount</h4>
+}
+
+@if (errorMessage != null)
+{
+    <p class="text-danger">@errorMessage</p>
+}
+
+@code {
+    private ClassIdModel classIdModel = new ClassIdModel();  // Model for form input
+    private int? studentCount = null;  // Store student count result
+    private string errorMessage = null;  // Store error messages
+
+    // Handle form submission
+    private async Task HandleValidSubmit()
+    {
+        try
+        {
+            // Get the student count for the class
+            studentCount = await ApiClient.CountAsync(classIdModel.ClassId);
+            errorMessage = null;  // Clear error message on success
+        }
+        catch (ApiException ex)
+        {
+            studentCount = null;
+            errorMessage = $"Error retrieving student count: {ex.Message}";
+        }
+    }
+
+    // Model for class ID input
+    public class ClassIdModel
+    {
+        public int ClassId { get; set; }
+    }
+}

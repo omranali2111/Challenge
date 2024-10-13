@@ -1,0 +1,79 @@
+﻿@page "/classes"
+@inject Client ApiClient
+
+<h3>Classes</h3>
+
+@if (classes == null)
+{
+    <p>Loading classes...</p>
+}
+else
+{
+    <ul>
+        @foreach (var classItem in classes)
+        {
+            <li>@classItem.ClassName</li>
+        }
+    </ul>
+}
+
+<h3>Add New Class</h3>
+
+<!-- Explicitly add FormName to avoid conflicts -->
+<EditForm Model="newClass" OnValidSubmit="HandleValidSubmit" FormName="AddClassForm">
+    <DataAnnotationsValidator />
+    <ValidationSummary />
+
+    <div class="mb-3">
+        <label for="className" class="form-label">Class Name</label>
+        <!-- Ensure the correct property is bound -->
+        <InputText id="className" class="form-control" @bind-Value="newClass.ClassName" />
+        @* Add validation message for the ClassName field *@
+        <ValidationMessage For="@(() => newClass.ClassName)" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Add Class</button>
+</EditForm>
+
+@code {
+    private List<Class> classes;
+    private Class newClass = new Class();  // Model for the new class
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadClassesAsync();  // Load the list of classes on page load
+    }
+
+    private async Task LoadClassesAsync()
+    {
+        try
+        {
+            classes = (await ApiClient.ClassAllAsync(CancellationToken.None)).ToList();
+        }
+        catch (ApiException ex)
+        {
+            Console.WriteLine($"Error fetching classes: {ex.Message}");
+        }
+    }
+
+    private async Task HandleValidSubmit()
+    {
+        try
+        {
+            Console.WriteLine($"Submitting ClassName: {newClass.ClassName}");  // Log the ClassName being submitted
+
+            // Log the JSON payload being sent
+            var jsonPayload = Newtonsoft.Json.JsonConvert.SerializeObject(newClass);
+            Console.WriteLine($"Payload: {jsonPayload}");
+
+            await ApiClient.ClassPOSTAsync(newClass);  // Add the new class
+            newClass = new Class();  // Clear the form after successful submission
+            await LoadClassesAsync();  // Reload the list of classes
+            Console.WriteLine("Class added successfully!");
+        }
+        catch (ApiException ex)
+        {
+            Console.WriteLine($"Error adding class: {ex.Message}");
+        }
+    }
+}

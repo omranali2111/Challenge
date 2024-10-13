@@ -1,0 +1,37 @@
+2024-10-06 09:29:24.344 +04:00 [WRN] The WebRootPath was not found: C:\Users\Omran.t\Desktop\NPCProject\Challenge\ChallengeBackEnd\wwwroot. Static files may be unavailable.
+2024-10-06 09:29:24.455 +04:00 [INF] Now listening on: https://localhost:7269
+2024-10-06 09:29:24.457 +04:00 [INF] Now listening on: http://localhost:5177
+2024-10-06 09:29:24.488 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-06 09:29:24.491 +04:00 [INF] Hosting environment: Development
+2024-10-06 09:29:24.493 +04:00 [INF] Content root path: C:\Users\Omran.t\Desktop\NPCProject\Challenge\ChallengeBackEnd
+2024-10-06 09:29:31.877 +04:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-10-06 09:29:31.892 +04:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: No authenticationScheme was specified, and there was no DefaultChallengeScheme found. The default schemes can be set using either AddAuthentication(string defaultScheme) or AddAuthentication(Action<AuthenticationOptions> configureOptions).
+   at Microsoft.AspNetCore.Authentication.AuthenticationService.ChallengeAsync(HttpContext context, String scheme, AuthenticationProperties properties)
+   at Microsoft.AspNetCore.Authorization.Policy.AuthorizationMiddlewareResultHandler.<>c__DisplayClass0_0.<<HandleAsync>g__Handle|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddlewareImpl.Invoke(HttpContext context)
+2024-10-06 09:30:10.782 +04:00 [WRN] The WebRootPath was not found: C:\Users\Omran.t\Desktop\NPCProject\Challenge\ChallengeBackEnd\wwwroot. Static files may be unavailable.
+2024-10-06 09:30:11.082 +04:00 [INF] Now listening on: https://localhost:7269
+2024-10-06 09:30:11.084 +04:00 [INF] Now listening on: http://localhost:5177
+2024-10-06 09:30:11.153 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-06 09:30:11.156 +04:00 [INF] Hosting environment: Development
+2024-10-06 09:30:11.159 +04:00 [INF] Content root path: C:\Users\Omran.t\Desktop\NPCProject\Challenge\ChallengeBackEnd
+2024-10-06 09:30:15.064 +04:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-10-06 09:30:15.071 +04:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-10-06 09:30:15.074 +04:00 [DBG] AuthenticationScheme: oidc was not authenticated.
+2024-10-06 09:30:17.316 +04:00 [DBG] HandleChallenge with Location: http://localhost:8080/realms/OmranRealm/protocol/openid-connect/auth?client_id=admin-client&redirect_uri=https%3A%2F%2Flocalhost%3A7269%2Fsignin-oidc&response_type=code&scope=openid%20profile%20email&code_challenge=AGx7cTKtMqXRKw_zNQOfR7zFtM6Djab-OXyWadTO1gc&code_challenge_method=S256&response_mode=form_post&nonce=638637894173004215.NTM3ZDAxYWMtZDhkMi00NzlhLWE0NTYtMzE1ZjIzODZmZjYzNjk5NzA4N2EtYzY3NC00Y2UwLTk3ODYtMTJiYjY4N2Q4ODVj&state=CfDJ8Ixcq4w27ehKmzo4L_miZ82SzDZl8WNGGq5l670eMPvW6sCKzs0-AWlVPc1DJE9tFrdicqMjBCyAKBX_UPMryb8DEFgtR6k7ipaGvTeBSkPHvhjLMrAU7ShEox15OgYK9IwVWFC4qeN29UwaPDwZR5gcVNHJncN4GU_qmDbieZyouv30T6jrsd8wuc3DfPfazYMEZoGlKiN9PHC0SNbjh_ulXCDgkqsfb0cT2QosX_6JePmQCvlUjvxYSiawDRff5h5qxB1GByS_WHUU-lx31hNw2iXeaaQXT7VBNHzUSXKaQLwiBYKPI5a7w7X8i1lCw9vBSFWE_leyiHwOGvzI_xHTgb-Cs75QdIK37wYsEwQZzWdoxbqSMukVNiFCI9BrAw&x-client-SKU=ID_NET8_0&x-client-ver=8.1.0.0; and Set-Cookie: .AspNetCore.OpenIdConnect.Nonce.CfDJ8Ixcq4w27ehKmzo4L_miZ80QY7OCDQeX2LyiRF8rbZHlZ65ioGDAs4cynS3O0RQ3vqE9d0WnHMyV_okBkZ30qsj96xO25kfGRq25KTKxlRH182hrBIpoTLtwUb671-hZhObNTuTsr51GHdETQpcsLgcNAfR_zyezWE0UdL8eZIb4laZN1U6oeOXwCop5Bcq8I3u6dCnun_lnDvHpTWK6aqN6uxuRTDfL3eGBQT_XPSFLMVudMUsjNA8RhK05AVCBkm9kFKUJAxyAJ_evyZocTLk=N; expires=Sun, 06 Oct 2024 05:45:17 GMT; path=/signin-oidc; secure; samesite=none; httponly,.AspNetCore.Correlation.MlmIAztjC23uGxkVNlJSyduduKy2-IVBFyChAw8sP9g=N; expires=Sun, 06 Oct 2024 05:45:17 GMT; path=/signin-oidc; secure; samesite=none; httponly.
+2024-10-06 09:30:17.327 +04:00 [INF] AuthenticationScheme: oidc was challenged.
+2024-10-06 09:30:28.029 +04:00 [DBG] Updating configuration
+2024-10-06 09:30:28.037 +04:00 [DBG] Redeeming code for tokens.
+2024-10-06 09:30:28.154 +04:00 [INF] AuthenticationScheme: Cookies signed in.
+2024-10-06 09:30:28.166 +04:00 [DBG] AuthenticationScheme: Cookies was successfully authenticated.
+2024-10-06 09:30:28.169 +04:00 [DBG] AuthenticationScheme: Cookies was successfully authenticated.
+2024-10-06 09:30:28.171 +04:00 [DBG] AuthenticationScheme: oidc was successfully authenticated.
+2024-10-06 09:30:28.195 +04:00 [DBG] AuthenticationScheme: oidc was successfully authenticated.

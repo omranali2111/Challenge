@@ -1,0 +1,12 @@
+2024-10-09 13:54:11.047 +04:00 [WRN] The WebRootPath was not found: C:\Users\Omran.t\Desktop\NPCProject\Challenge\ChallengeBackEnd\wwwroot. Static files may be unavailable.
+2024-10-09 13:54:11.227 +04:00 [INF] Now listening on: https://localhost:7269
+2024-10-09 13:54:11.229 +04:00 [INF] Now listening on: http://localhost:5177
+2024-10-09 13:54:11.287 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-09 13:54:11.290 +04:00 [INF] Hosting environment: Development
+2024-10-09 13:54:11.291 +04:00 [INF] Content root path: C:\Users\Omran.t\Desktop\NPCProject\Challenge\ChallengeBackEnd
+2024-10-09 14:00:51.593 +04:00 [WRN] The WebRootPath was not found: C:\Users\Omran.t\Desktop\NPCProject\Challenge\ChallengeBackEnd\wwwroot. Static files may be unavailable.
+2024-10-09 14:00:51.777 +04:00 [INF] Now listening on: https://localhost:7269
+2024-10-09 14:00:51.781 +04:00 [INF] Now listening on: http://localhost:5177
+2024-10-09 14:00:51.872 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-09 14:00:51.876 +04:00 [INF] Hosting environment: Development
+2024-10-09 14:00:51.879 +04:00 [INF] Content root path: C:\Users\Omran.t\Desktop\NPCProject\Challenge\ChallengeBackEnd

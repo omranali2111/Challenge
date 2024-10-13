@@ -1,0 +1,25 @@
+2024-10-09 14:14:14.821 +04:00 [WRN] The WebRootPath was not found: C:\Users\Omran.t\Desktop\NPCProject\Challenge\ChallengeBackEnd\wwwroot. Static files may be unavailable.
+2024-10-09 14:14:14.984 +04:00 [INF] Now listening on: https://localhost:7269
+2024-10-09 14:14:14.986 +04:00 [INF] Now listening on: http://localhost:5177
+2024-10-09 14:14:15.022 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-09 14:14:15.024 +04:00 [INF] Hosting environment: Development
+2024-10-09 14:14:15.026 +04:00 [INF] Content root path: C:\Users\Omran.t\Desktop\NPCProject\Challenge\ChallengeBackEnd
+2024-10-09 14:14:27.009 +04:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-10-09 14:14:27.218 +04:00 [WRN] Class with ID 0 not found.
+2024-10-09 14:14:45.319 +04:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-10-09 14:14:45.356 +04:00 [WRN] Class with ID 0 not found.
+2024-10-09 14:14:47.565 +04:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-10-09 14:14:47.569 +04:00 [WRN] Class with ID 0 not found.
+2024-10-09 14:16:46.010 +04:00 [WRN] The WebRootPath was not found: C:\Users\Omran.t\Desktop\NPCProject\Challenge\ChallengeBackEnd\wwwroot. Static files may be unavailable.
+2024-10-09 14:16:46.155 +04:00 [INF] Now listening on: https://localhost:7269
+2024-10-09 14:16:46.158 +04:00 [INF] Now listening on: http://localhost:5177
+2024-10-09 14:16:46.193 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-09 14:16:46.195 +04:00 [INF] Hosting environment: Development
+2024-10-09 14:16:46.196 +04:00 [INF] Content root path: C:\Users\Omran.t\Desktop\NPCProject\Challenge\ChallengeBackEnd
+2024-10-09 14:16:52.489 +04:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-10-09 14:16:57.839 +04:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-10-09 14:17:00.693 +04:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-10-09 14:17:05.359 +04:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-10-09 14:18:05.867 +04:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-10-09 14:18:14.926 +04:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-10-09 14:18:17.074 +04:00 [DBG] AuthenticationScheme: Cookies was not authenticated.

@@ -1,0 +1,36 @@
+2024-10-06 09:34:09.406 +04:00 [FTL] Application startup exception
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Session.ISessionStore' while attempting to activate 'Microsoft.AspNetCore.Session.SessionMiddleware'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2024-10-06 09:34:09.476 +04:00 [ERR] Hosting failed to start
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Session.ISessionStore' while attempting to activate 'Microsoft.AspNetCore.Session.SessionMiddleware'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.ReflectionMiddlewareBinder.CreateMiddleware(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__15_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+2024-10-06 09:34:45.538 +04:00 [WRN] The WebRootPath was not found: C:\Users\Omran.t\Desktop\NPCProject\Challenge\ChallengeBackEnd\wwwroot. Static files may be unavailable.
+2024-10-06 09:34:45.702 +04:00 [INF] Now listening on: https://localhost:7269
+2024-10-06 09:34:45.703 +04:00 [INF] Now listening on: http://localhost:5177
+2024-10-06 09:34:45.741 +04:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-10-06 09:34:45.743 +04:00 [INF] Hosting environment: Development
+2024-10-06 09:34:45.745 +04:00 [INF] Content root path: C:\Users\Omran.t\Desktop\NPCProject\Challenge\ChallengeBackEnd
+2024-10-06 09:34:51.574 +04:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-10-06 09:34:51.583 +04:00 [DBG] AuthenticationScheme: Cookies was not authenticated.
+2024-10-06 09:34:51.587 +04:00 [DBG] AuthenticationScheme: oidc was not authenticated.
+2024-10-06 09:34:53.787 +04:00 [DBG] HandleChallenge with Location: http://localhost:8080/realms/OmranRealm/protocol/openid-connect/auth?client_id=admin-client&redirect_uri=https%3A%2F%2Flocalhost%3A7269%2Fsignin-oidc&response_type=code&scope=openid%20profile&code_challenge=IH5w_BGGWd9VDNRl3pwr386dUOBI6bLTLUxNRelRhag&code_challenge_method=S256&response_mode=form_post&nonce=638637896937758511.N2E1MjExN2ItM2MwZi00NjJhLThlNTAtNTU3NmRjZjg0ZDg1MWE2NGE0ZDMtYjlmMS00ZDFjLWJjN2UtZTg3OTYzYzdlZTU4&state=CfDJ8Ixcq4w27ehKmzo4L_miZ83h5CQcGMLoQBg6iRUIvU8ptiVHRQXXaT2j7TgYdPjFqDkCxN72ErRTaLn7xQoQUGLdeDmYK9CPzVBctjV_QBA7GKtIIkhALp8tSyITM-pEQc_oMtGmRjHchOSw9gDW4oKU0FNCuCjKlZNGLTQ-b4jlq7-Tv8mUC1Nw-ZxbSL-b5IkAXmGxmtt9SK3kb29zzy2JWWJlDm9QVRygJw24tnqoWDCYQEumeIq6KEW9rzfZ-NJSt5eWL2oIJSc0XwDliNB1l-EIvaOIvb6v9BBUV25wuJ1q8Wh_ZzYHqLmDHEKtkUcHaT_yJoxdBkoE6ei-Vzq6SVdj5KsViYRanzvzPpQxJ0abg4rxvVtWSTP54imPjw&x-client-SKU=ID_NET8_0&x-client-ver=8.1.0.0; and Set-Cookie: .AspNetCore.OpenIdConnect.Nonce.CfDJ8Ixcq4w27ehKmzo4L_miZ80WLDx-8pD29hNGGHG_0d_qpy183Uqii9PhjtWkz7dvpRrP1i82qch0b8MwBWcxIHhpIl1HxWEeZcdMNJL2h-uItDQiavlZwRb__kxB18zwth1qjU1aUnHaayxvX2RzYIcrBbNfEW_I4EHHtd20z7lDwbxiBmwTB0b9EvwzcUBMbQHzyU3qBBHFxL6D4ttr1uMBsoRRVSRZSR1EPhnUVHwxSJ_OhBQu9r8e1wax9ncNYLP2gJmjGTOyblD4tcejg3U=N; expires=Sun, 06 Oct 2024 05:49:53 GMT; path=/signin-oidc; secure; samesite=none; httponly,.AspNetCore.Correlation.nr1vYHxPoorBczGOM5Sd3fDDtIMjb7szp_SdEIAK4QM=N; expires=Sun, 06 Oct 2024 05:49:53 GMT; path=/signin-oidc; secure; samesite=none; httponly.
+2024-10-06 09:34:53.794 +04:00 [INF] AuthenticationScheme: oidc was challenged.
+2024-10-06 09:35:00.827 +04:00 [DBG] Updating configuration
+2024-10-06 09:35:00.836 +04:00 [DBG] Redeeming code for tokens.
+2024-10-06 09:35:00.940 +04:00 [INF] AuthenticationScheme: Cookies signed in.
+2024-10-06 09:35:00.951 +04:00 [DBG] AuthenticationScheme: Cookies was successfully authenticated.
+2024-10-06 09:35:00.955 +04:00 [DBG] AuthenticationScheme: Cookies was successfully authenticated.
+2024-10-06 09:35:00.957 +04:00 [DBG] AuthenticationScheme: oidc was successfully authenticated.
+2024-10-06 09:35:00.976 +04:00 [DBG] AuthenticationScheme: oidc was successfully authenticated.
